@@ -60,18 +60,18 @@ export default class createTask extends Component {
             <TouchableOpacity onPress ={this.likePressed}>
               <Image
                 style={{ width: 50, height: 50, marginLeft: 5 }}
-                source={require('../assets/thumbs-up-hand-symbol.png')}
+                source={require('../greentick.png')}
               />
             </TouchableOpacity>
             <TouchableOpacity onPress ={this.dislikePressed}>
               <Image
                 style={{
                   width: 50,
-                  height: 50,
-                  marginTop: -35,
+                  height: 45,
+                  marginTop: -50,
                   marginLeft: 100,
                 }}
-                source={require('../assets/thumbs-down-silhouette.png')}
+                source={require('../crossmark.png')}
               />
             </TouchableOpacity>
           </View>
